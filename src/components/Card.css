@@ -1,0 +1,49 @@
+.card--main{
+    width: 300px;
+    
+}
+.card--like{
+    z-index: 1;
+    position: absolute;
+    padding: 10px;
+    margin-left: 250px;
+
+}
+.card--image {
+    
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    /* background-position: bottom 50px right 100px; */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: bottom;
+    background-size: cover;
+}
+.card--star{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.card--star img {
+    margin-right: 5px;
+}
+
+.card--star span {
+    margin-right: 5px;
+}
+
+.card--p  {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    width: 300px
+}
+
+.card--text{
+ width: 300px;
+ box-shadow: 0px 2.98px 7.45px rgba(0, 0, 0, 0.1);
+ height: 80px;
+}

@@ -1,0 +1,36 @@
+.promos{
+    margin-left: 34%;
+    padding: 20px;
+}
+.post-promo{
+    margin-bottom: 40px;
+    padding: 10px;
+    width: 500px;
+    box-shadow: 0px 2.98px 7.45px rgb(0 0 0 / 10%);
+}
+.promo-title{
+    display: flex;
+    justify-content: space-between;
+}
+.promo-profile{
+    display: flex;
+   
+}
+.promo-profile a{
+    display: flex;
+    text-decoration: none;
+}
+.profile-photo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-desc{
+    font-size: 20px;
+}
+.post-desc span{
+    background: rgb(251, 253, 149);
+    border-radius: 10px;
+}
