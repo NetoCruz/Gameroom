@@ -6,6 +6,24 @@ grid-column-gap: 20px;
 grid-row-gap: 20px;
 padding: 60px;
 }
+h1{
+    text-align: center;
+}
+.selector{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.selector button{
+    cursor: pointer;
+   margin-right: 10px;
+   border: solid 2px blue;
+   border-radius: 20px;
+   padding: 10px;
+   background-color: white;
+}
 .card--like{
     z-index: 1;
     position: absolute;

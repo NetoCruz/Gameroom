@@ -122,7 +122,8 @@ export default function Gallery(){
             >
             </input>
           </div>
-        <button
+        <div className="selector">
+            <button
         value=""
         onClick={event => {
           handleBrandChange(event);
@@ -149,6 +150,8 @@ export default function Gallery(){
         value="2"
         onClick={handleTypeGirl}
         >Jugadores</button>
+        </div>
+      
        
 
 

@@ -38,6 +38,9 @@ export default function Card(props){
             <span>{props.status}</span>
             <span>{props.location}</span>
             </div>
+            <div className="card--button">
+            <button>1200 bkcoins</button>
+            </div>
         </div>
     
     </section>

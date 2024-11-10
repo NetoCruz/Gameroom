@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Header(){
     return(
         <div className="header--body">
-        <p className="header--title">Candy Girls</p>
+        <p className="header--title">GamerRoom</p>
         <div className="header--user">
         <Link to="/galleria">
             Galleria
